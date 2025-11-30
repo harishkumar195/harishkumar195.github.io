@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Harishkumar J. N – Veterinary Research Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+</head>
+
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Harishkumar J. N</a>
+      <span class="navbar-text text-secondary">
+        Veterinary Science | Researcher | Nanoemulsion Studies
+      </span>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+
+    <section class="mb-5">
+      <h1 class="h3">Veterinary Research Portfolio</h1>
+      <p class="text-muted mb-0">
+        ORCID: <a href="https://orcid.org/0009-0001-0254-2773" target="_blank">
+        0009-0001-0254-2773</a>
+      </p>
+      <p class="text-muted">
+        Email: <a href="mailto:harishkumar1952000@gmail.com">harishkumar1952000@gmail.com</a>
+      </p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="h4">Featured Manuscript</h2>
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h3 class="h5">
+            Plant-Based Nanoemulsions for Male Antifertility:
+            A Systematic Review and Meta-analysis
+          </h3>
+          <p class="text-muted mb-1">Journal: <strong>Veterinary World</strong></p>
+          <p class="small text-muted mb-3">Manuscript ID: VETWORLD-2025-11-625</p>
+          <p>
+            This systematic review evaluates the antifertility potential of
+            plant-based nanoemulsions in male animal models, showing major reductions in sperm count,
+            motility, and testosterone levels with minimal toxicity. These findings support their future use
+            in canine population control programs.
+          </p>
+
+          <ul>
+            <li>27 in vivo studies (2010–2025)</li>
+            <li>PRISMA-based systematic review</li>
+            <li>Enhanced delivery & bioavailability (2–8×)</li>
+            <li>Significant reduction in sperm concentration & motility</li>
+            <li>Reversible antifertility effect</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="h4">Research Interests</h2>
+      <ul>
+        <li>Veterinary reproduction & antifertility research</li>
+        <li>Phytochemicals & nanoemulsion formulation</li>
+        <li>Non-surgical canine population control</li>
+        <li>AI in veterinary diagnostics and epidemiology</li>
+      </ul>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="h4">Education</h2>
+      <p class="mb-1"><strong>B.V.Sc & A.H</strong>, Orathanadu Veterinary College (TANUVAS)</p>
+      <p class="text-muted">2020 – 2026 | Undergraduate Student (4th Year)</p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="h4">Contact</h2>
+      <p class="mb-0">Email: <a href="mailto:harishkumar1952000@gmail.com">harishkumar1952000@gmail.com</a></p>
+      <p class="mb-0">ORCID: <a href="https://orcid.org/0009-0001-0254-2773" target="_blank">
+        https://orcid.org/0009-0001-0254-2773</a></p>
+      <p class="mb-0">GitHub: <a href="https://github.com/harishkumar195" target="_blank">
+        github.com/harishkumar195</a></p>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-light text-center py-3">
+    <small>&copy; <span id="year"></span> Harishkumar J. N | Veterinary Research Portfolio</small>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
